@@ -17,21 +17,21 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        wLogIn = (TextView) findViewById( R.id.textView);
+        wLogIn = (TextView) findViewById(R.id.textView);
 
-        wLogIn.setOnClickListener(new View.OnClickListener(){
+       /* wLogIn.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View view){
 
-            //    Intent intent = new Intent(this,MapsActivity.class);
+                Intent intent = new Intent(this,MapsActivity.class);
 
-            //    startActivity(intent);
+                startActivity(intent);
 
 
             }
 
 
-        });
+        });*/
 
     }
 
